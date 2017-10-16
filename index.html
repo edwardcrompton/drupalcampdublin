@@ -23,7 +23,7 @@
         </section>
 
         <section class="left-align">
-          <h2>The premises of this talk</h2>
+          <h2>The basis of this talk</h2>
           <div style="float: left; width: 70%">
           <p>Docker holds potential for easier Drupal development and
             deployment.</p>
@@ -48,7 +48,7 @@
         </section>
 
         <section class="left-align">
-          <h2>Containers are not virtual machines</h2>
+          <h2>Container life expectancy</h2>
           <div style="float: left; width: 65%">
             <p>Containers are designed to run a process in an isolated, controlled environment and then exit.</p>
           </div>
@@ -57,6 +57,16 @@
             <img class="plain" src="images/15229379983_97062ec16e_b.jpg" />
             <small>https://flic.kr/p/pcLy5X</small>
           </div>
+        </section>
+
+        <section>
+          <h2>Introducing some Docker commands</h2>
+
+          <pre><code>docker pull [image]</code></pre>
+          <pre><code>docker ps -a</code></pre>
+          <pre><code>docker run [image] [command]</code></pre>
+
+
         </section>
 
         <section>
@@ -71,7 +81,7 @@
 
         <section class="left-align">
           <h2>Realisation 1</h2>
-          <p>Containers are ephemeral: The lifetime of a container is the same
+          <p>Containers are disposable: The lifetime of a container is the same
           as the lifetime of the process within it.</p>
         </section>
 
@@ -83,14 +93,14 @@
         </section>
 
         <section>
+          <h2>Process identifier (PID) namespaces
           <video data-autoplay data-src="videos/docker-3.ogv"></video>
         </section>
 
         <section class="left-align">
           <h2>Realisation 2</h2>
           <div style="float: left; width: 65%">
-            <p>Namespaces are responsible for isolating the processes, filesystem
-            and networks in a container.</p>
+            <p>Containers are not isolated operating systems, they are isolated by namespace.</p>
           </div>
           <div style="float: right; width: 35%">
             <img class="plain" src="images/32777596874_fadc2d1905_k.jpg" />
