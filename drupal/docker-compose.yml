@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web:
+    image: navidonskis/nginx-php5.6
+    volumes:
+      - ./web:/var/www
+    ports:
+      - 1234:80
+
+  database:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: password
