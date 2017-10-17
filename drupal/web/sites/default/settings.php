@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '8Lvqurx2sdfaOdE--63j28SCCGNmxzxXDW5Choeso-vVv-ZwjoQMzA1WUUqWQ-VXuy0chUQmbg';
+$settings['hash_salt'] = '';
 
 /**
  * Deployment identifier.
@@ -783,15 +783,3 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'docker',
-  'username' => 'root',
-  'password' => 'password',
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_DIKGPfC0DyQ7iBSYqUfDKPQ3DfISxZD98UOjmi3nTZshio33i_GECBTQBiJKh69JlApzP9EWhA/sync';

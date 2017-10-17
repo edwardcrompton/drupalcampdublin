@@ -83,8 +83,8 @@
         <section class="left-align">
           <h2>Ah ha! Moment 1</h2>
           <div style="float: left; width:65%">
-          <p>Containers are disposable: The lifetime of a container is the same
-          as the lifetime of the process within it.</p>
+          <p>Containers are disposable: A container may only run for as long as
+          the process within it.</p>
           </div>
           <div style="float: right; width: 35%">
             <img class="plain" src="images/4711849406_c9b1988bf3_b.jpg" />
@@ -107,7 +107,8 @@
         <section class="left-align">
           <h2>Ah ha! Moment 2</h2>
           <div style="float: left; width: 65%">
-            <p>Containers are not isolated operating systems, they are isolated by namespace.</p>
+            <p>Containers are not isolated operating systems, they are isolated
+            by namespace.</p>
           </div>
           <div style="float: right; width: 35%">
             <img class="plain" src="images/32777596874_fadc2d1905_k.jpg" />
@@ -135,9 +136,15 @@
 
         <section class="left-align">
           <h2>Ah ha! Moment 4</h2>
+          <div style="float: left; width: 65%">
           <p>Docker run is not an efficient way of working with multi-container
             systems.</p>
           <p>There are other tools.</p>
+          </div>
+          <div style="float: right; width: 35%">
+            <img class="plain" src="images/12182919023_9df60e5404_k.jpg" />
+            <small>https://flic.kr/p/jyyDnZ</small>
+          </div>
         </section>
 
         <section class="left-align">
@@ -154,13 +161,13 @@
         <section>
           <h2>Summary</h2>
           <ul>
-            <li>Containers are ephemeral: The life time of a container is the
-              same as that of the process within it.</li>
+            <li>Containers are ephemeral: Containers only need to last as long
+              as the process within it.</li>
             <li>Containers are part of the host system but separate. They have
               separate process id namespaces and filesystems.</li>
             <li>Containers should perform one role well. They may sometimes run
               different processes, but always just perform one role.</li>
-            <li>Use docker-compose to control multicontainer Docker containers
+            <li>Use docker-compose to control multi-container Docker containers
               and build something useful!</li>
           </ul>
         </section>
