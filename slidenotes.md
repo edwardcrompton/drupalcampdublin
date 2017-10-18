@@ -6,13 +6,15 @@ This is a brief introduction to Docker concepts for those of us unfashionably la
 Slide 1
 -------
 
-Developer friends and have been telling me for some time that virtualisation is old hat, I should be using Docker and containerisation.
+Been told for a while that virtual machines are old hat.
 
-A barrier to adopting containerisation with Docker has for me been getting my head around some of the fundamental concepts.
+Fundamental concepts are a barrier.
 
-To start with I couldn't fully realise the advantages of containerisation in my development workflow because some of the central concepts were less than intuitive.
+Fully realising the advntages of containerisation means grasping some central concepts.
 
-I'm going to take you through FOUR of the important realisations I've had during my growing understanding of docker and hopefully provide you with a good foundation to start exploring Docker as a solution for your own Drupal development and deployment.
+I'm going to take you through FOUR of the important realisations I've had.
+
+Hopefully provide you with a good foundation to start exploring Docker as a solution for your own Drupal development and deployment.
 
 Slide 2
 -------
