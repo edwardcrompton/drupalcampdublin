@@ -35,6 +35,18 @@ I'm going to take you through FOUR of the important realisations I've had.
 
 Hopefully provide you with a good foundation to start exploring Docker as a solution for your own Drupal development and deployment.
 
+Slide 1a
+--------
+
+Ever discovered you have twoo applications that require two different versions of PHP?
+Ever discovered that your PHP7 codebase breaks when you deploy it to a PHP5.6 server you forgott?
+
+Spin up a new test environment when you need it.
+
+Deployment is easy when you deploy containers, not complex configurations
+
+Scale by adding new containers when you need to.
+
 Slide 2
 -------
 
@@ -234,7 +246,7 @@ Demo docker-compose ?live? and show drupal site.
 Slide 18
 --------
 
-Summary:
+Summary of our discoveries:
 
 The four concepts we've learned.
 

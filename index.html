@@ -38,6 +38,16 @@
           <small>https://flic.kr/p/ahS3AJ</small>
         </section>
 
+        <section>
+          <h2>Why use docker for Drupal development?</h2>
+          <ul>
+            <li>Always have access to the correct software versions</li>
+            <li>Clone your environments</li>
+            <li>Deploy to consistent environments</li>
+            <li>Scale up when you need to</li>
+          </ul>
+        </section>
+
         <section class="left-align">
           <h2>What’s a container?</h2>
           <p>Docker utilises Linux ‘containers’.</p>
@@ -167,16 +177,15 @@
         </section>
 
         <section>
-          <h2>Summary</h2>
+          <h2>What we've discovered</h2>
           <ul>
             <li>Containers are ephemeral: Containers only need to last as long
               as the process within it.</li>
-            <li>Containers are part of the host system but separate. They have
+            <li>Containers use the host kernel but are separate. They have
               separate process id namespaces and filesystems.</li>
-            <li>Containers should perform one role well. They may sometimes run
-              different processes, but always just perform one role.</li>
-            <li>Use docker-compose to control multi-container Docker containers
-              and build something useful!</li>
+            <li>Containers should be designed to perform one role well.</li>
+            <li>We can use docker-compose to control multi-container Docker
+              containers</li>
           </ul>
         </section>
 
