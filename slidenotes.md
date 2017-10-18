@@ -55,7 +55,19 @@ So... what's different about containers?
 
 Containers are designed to run a process in an isolated, controlled environment and then exit.
 
-Containers don't contain an entire operating system. They're therefore fast and require few resources to run.
+Containers use the kernal of the host operating system. They're therefore fast and require few resources to run.
+
+Slide 3a
+--------
+
+Containers are created from an image.
+
+The image dictates how the container is configured.
+
+Slide 3b
+--------
+
+Images are retrieved from docker hub or another repository.
 
 Slide 4
 -------

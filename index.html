@@ -51,7 +51,7 @@
           <h2>Why are containers special?</h2>
           <div style="float: left; width: 65%">
             <p>Containers are designed to run a process in an isolated, controlled environment and then exit.</p>
-            <p>Containers don't require their own operating system to run.</p>
+            <p>Containers run using the kernel of the host OS, so they're lightweight.</p>
           </div>
 
           <div style="float: right; width: 35%">
@@ -60,14 +60,22 @@
           </div>
         </section>
 
+        <section class="left-align">
+          <h2>Containers are created from images</h2>
+          <img class="plain" src="images/docker-image-vs-containers.jpg" />
+          <small>https://blog.newrelic.com/2016/06/20/docker-osx-mac/</small>
+        </section>
+
+        <section class="left-align">
+          <h2>Images can be pulled from a public repository</h2>
+          <img class="plain" src="images/screenshot-2.png" />
+        </section>
+
         <section>
           <h2>Some Docker commands</h2>
-
           <pre><code>docker pull [image]</code></pre>
           <pre><code>docker ps -a</code></pre>
           <pre><code>docker run [image] [command]</code></pre>
-
-
         </section>
 
         <section>
