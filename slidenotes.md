@@ -1,3 +1,22 @@
+Set Up
+------
+- Open slides in browser:
+file:///home/edward/Documents/DrupalCampDublin/drupalcampdublin/index.html
+
+- Set lock screen on phone to 30 mins
+
+- Open notes on phone:
+https://github.com/edwardcrompton/drupalcampdublin/blob/gh-pages/slidenotes.md
+
+- Open a single terminal at:
+/home/edward/Documents/DrupalCampDublin/drupalcampdublin/drupal
+
+- Ensure docker-compose up -d runs
+
+- Ensure I can navigate to localhost:1234
+
+
+
 Slide 0
 -------
 
@@ -195,16 +214,13 @@ database: This is the name of the database container
 image: We're just going to use a standard mariadb image
 environment: allows us to add environment variables. We can add a username and database name here that will get created when the container is built. However, I'm just being lazy here and specifying a mysql root password which is the minimum we need.
 
-
-
-
-
-Slide 12
+Slide 17
+--------
 
 Demo docker-compose ?live? and show drupal site.
 
-
-Slide 13
+Slide 18
+--------
 
 Summary:
 
@@ -215,7 +231,8 @@ Containers are part of your host system but isolated.
 Keep the Unix philosophy in mind when you're designing your containers. Do one thing well.
 Use docker-compose to build useful multicontainer systems.
 
-Slide 14
+Slide 19
+--------
 
 Mention that there's a Drupal docker image already. 
 
